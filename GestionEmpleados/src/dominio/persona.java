@@ -46,13 +46,10 @@ public abstract class persona{
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("persona{nombre=").append(nombre);
-        sb.append(", apellido=").append(apellido);
-        sb.append(", id=").append(id);
-        sb.append('}');
-        return sb.toString();
+        return "id=" + id + ", "+ nombre + " " + apellido;
     }
+
+    
 
     
     
